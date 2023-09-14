@@ -34,9 +34,9 @@ Implement the following methods for the `ArtifactCatalog` class:
 
 - `__init__(self)`: Initializes an empty catalog.
 - `add_artifact(self, artifact)`: Adds an `Artifact` object to the catalog with its ID as the key.
-- `find_artifacts_by_artist(self, artist)`: Returns a list of artifact names created by a specific artist.
-- `calculate_total_value(self)`: Returns the total estimated value of all artifacts in the catalog.
-- `get_oldest_artifact(self)`: Returns the `Artifact` object representing the oldest artifact in the catalog.
+- `find_artifacts_by_artist(self, artist)`: Returns a list of artifact names created by a specific artist. (Write in one line using list comprehension)
+- `calculate_total_value(self)`: Returns the total estimated value of all artifacts in the catalog.  (Write in one line using list comprehension)
+- `get_oldest_artifact(self)`: Returns the `Artifact` object representing the oldest artifact in the catalog.  (Write in one line using list comprehension)
 - `remove_artifact(self, artifact_id)`: Removes an artifact from the catalog by its ID.
 
 **c) `Exhibition` Class:**
